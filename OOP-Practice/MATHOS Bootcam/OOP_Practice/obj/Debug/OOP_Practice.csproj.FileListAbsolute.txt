@@ -1,0 +1,8 @@
+C:\MATHOS-Web-Development-Bootcamp\OOP-Practice\MATHOS Bootcam\OOP_Practice\bin\Debug\OOP_Practice.exe.config
+C:\MATHOS-Web-Development-Bootcamp\OOP-Practice\MATHOS Bootcam\OOP_Practice\bin\Debug\OOP_Practice.exe
+C:\MATHOS-Web-Development-Bootcamp\OOP-Practice\MATHOS Bootcam\OOP_Practice\bin\Debug\OOP_Practice.pdb
+C:\MATHOS-Web-Development-Bootcamp\OOP-Practice\MATHOS Bootcam\OOP_Practice\obj\Debug\OOP_Practice.csproj.AssemblyReference.cache
+C:\MATHOS-Web-Development-Bootcamp\OOP-Practice\MATHOS Bootcam\OOP_Practice\obj\Debug\OOP_Practice.csproj.SuggestedBindingRedirects.cache
+C:\MATHOS-Web-Development-Bootcamp\OOP-Practice\MATHOS Bootcam\OOP_Practice\obj\Debug\OOP_Practice.csproj.CoreCompileInputs.cache
+C:\MATHOS-Web-Development-Bootcamp\OOP-Practice\MATHOS Bootcam\OOP_Practice\obj\Debug\OOP_Practice.exe
+C:\MATHOS-Web-Development-Bootcamp\OOP-Practice\MATHOS Bootcam\OOP_Practice\obj\Debug\OOP_Practice.pdb
