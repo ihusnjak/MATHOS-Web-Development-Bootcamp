@@ -1,0 +1,68 @@
+CREATE TABLE Person (
+"Id" UNIQUEIDENTIFIER PRIMARY KEY default NEWID(),
+"FirstName" varchar(30),
+"LastName" varchar(30),
+);
+
+CREATE TABLE Task (
+"Id" int PRIMARY KEY not null identity(1,1),
+"TaskName" varchar(30),
+"Type" varchar(30),
+"Status" varchar(30),
+"PersonId" UNIQUEIDENTIFIER not null ,
+FOREIGN KEY (PersonId) REFERENCES Person (Id)
+);
+
+
+INSERT INTO Person (FirstName, LastName)
+VALUES ('Ivan', 'Husnjak'),
+		('Pero', 'Peric'),
+		('Mirko', 'Mirkovic'),
+		('Petar', 'Graso'),
+		('Jozo', 'Jozic'),
+		('Tea', 'Horvat'),
+		('Mirta', 'Plenkovic');
+
+INSERT INTO Task (TaskName, Type, Status, PersonId)
+VALUES ('Find BUG in foo', 'BUG', 'OPEN', (SELECT  Id FROM Person WHERE FirstName = 'Ivan')),
+		('Explore SQL', 'TASK', 'OPEN', (SELECT  Id FROM Person WHERE FirstName = 'Ivan')),
+		('Finish WEB API', 'TASK', 'CLOSED', (SELECT  Id FROM Person WHERE FirstName = 'Tea')),
+		('Find BUG in foo', 'BUG', 'OPEN', (SELECT  Id FROM Person WHERE FirstName = 'Mirta')),
+		('Find BUG in head', 'BUG', 'OPEN', (SELECT  Id FROM Person WHERE FirstName = 'Mirta'));
+
+
+
+
+SELECT * FROM Person;
+SELECT * FROM Task;
+SELECT * FROM Task WHERE Status = 'OPEN';
+SELECT * FROM Task WHERE Status = 'OPEN' AND Type = 'BUG';
+SELECT Id, TaskName FROM Task WHERE Status = 'OPEN' AND Type = 'BUG';
+
+SELECT FirstName, LastName, TaskName, Type, Status
+FROM Person JOIN Task
+   ON Person.Id = Task.PersonId
+   WHERE Status = 'OPEN'
+   ORDER BY FirstName;
+
+
+SELECT FirstName, LastName, TaskName, Type, Status, p.Id
+FROM Person AS p INNER JOIN Task AS t
+   ON p.Id = t.PersonId;
+
+SELECT *
+FROM Person AS p FULL JOIN Task AS t
+   ON p.Id = t.PersonId;
+
+
+DECLARE @PageNumber AS INT
+DECLARE @RowsOfPage AS INT
+SET @PageNumber=1
+SET @RowsOfPage=3
+SELECT FirstName, LastName, TaskName, Type, Status, p.Id
+FROM Person AS p LEFT JOIN Task AS t
+   ON p.Id = t.PersonId
+   ORDER BY t.Id 
+   OFFSET (@PageNumber-1)*@RowsOfPage ROWS
+   FETCH NEXT @RowsOfPage ROWS ONLY
+   
