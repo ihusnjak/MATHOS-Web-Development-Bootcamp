@@ -1,0 +1,39 @@
+CREATE TABLE Employee (
+"Id" int PRIMARY KEY NOT NULL IDENTITY(1,1),
+"FirstName" varchar(50),
+"LastName" varchar(50),
+"Age" int );
+
+CREATE TABLE Task  (
+"Id" int PRIMARY KEY NOT NULL IDENTITY(1,1),
+"Name" varchar(50),
+"Status" varchar(50),
+"Type" varchar(50),
+"Complexity" int );
+
+CREATE TABLE EmployeeTask (
+"EmployeeId" int NOT NULL,
+"TaskId" int NOT NULL,
+FOREIGN KEY (EmployeeId) REFERENCES Employee (Id),
+FOREIGN KEY (TaskId) REFERENCES Task (Id) );
+
+INSERT INTO Employee (FirstName, LastName, Age) VALUES
+('Ivan', 'Husnjak', '35'),
+('John', 'Smith', '27'),
+('Marta', 'Horvat', '30'),
+('Tea', 'Gordan', '18'),
+('Marko', 'Polo', '22');
+
+INSERT INTO Task (Name, Status, Type, Complexity) VALUES
+('Fix something', 'OPEN', 'TASK', '5'),
+('Find bug in', 'OPEN', 'BUG', '4'),
+('finish something', 'IN_PROGRESS', 'TASK', '8'),
+('Fix something in foo', 'OPEN', 'TASK', '2');
+
+INSERT INTO EmployeeTask (EmployeeId, TaskId) VALUES
+('1', '1'),
+('1', '3'),
+('2', '1'),
+('2', '3'),
+('3', '2'),
+('4', '4');

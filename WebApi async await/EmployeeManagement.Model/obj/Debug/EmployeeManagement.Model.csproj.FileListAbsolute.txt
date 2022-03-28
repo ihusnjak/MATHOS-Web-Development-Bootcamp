@@ -1,0 +1,6 @@
+C:\Users\husnj\OneDrive\Radna površina\Consoleapp\Employee task management\EmployeeManagement.Model\bin\Debug\EmployeeManagement.Model.dll
+C:\Users\husnj\OneDrive\Radna površina\Consoleapp\Employee task management\EmployeeManagement.Model\bin\Debug\EmployeeManagement.Model.pdb
+C:\Users\husnj\OneDrive\Radna površina\Consoleapp\Employee task management\EmployeeManagement.Model\obj\Debug\EmployeeManagement.Model.csproj.AssemblyReference.cache
+C:\Users\husnj\OneDrive\Radna površina\Consoleapp\Employee task management\EmployeeManagement.Model\obj\Debug\EmployeeManagement.Model.csproj.CoreCompileInputs.cache
+C:\Users\husnj\OneDrive\Radna površina\Consoleapp\Employee task management\EmployeeManagement.Model\obj\Debug\EmployeeManagement.Model.dll
+C:\Users\husnj\OneDrive\Radna površina\Consoleapp\Employee task management\EmployeeManagement.Model\obj\Debug\EmployeeManagement.Model.pdb
