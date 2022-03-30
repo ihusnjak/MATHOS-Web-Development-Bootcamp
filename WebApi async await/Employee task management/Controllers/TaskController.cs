@@ -1,4 +1,5 @@
 ﻿using Employee_task_management.Models;
+using EmployeeManagement.Common;
 using EmployeeManagement.Model;
 using EmployeeManagement.Service;
 using EmployeeManagement.Service.Common;
@@ -20,11 +21,11 @@ namespace Employee_task_management.Controllers
             this.TaskService = taskService;
         }
 
-        public async Task<HttpResponseMessage> GetAsync()
+        public async Task<HttpResponseMessage> GetAsync([FromUri] Paging paging, [FromUri] FilterTask filter, [FromUri] Sorting sort)
         {
             // var taskService = new TaskService();
             
-            List<TaskModelEntity> tasks = await TaskService.GetAllAsync();
+            List<TaskModelEntity> tasks = await TaskService.GetAllAsync(paging, filter, sort);
             List<TaskREST> taskREST = new List<TaskREST>();
             foreach (TaskModelEntity task in tasks)
             {

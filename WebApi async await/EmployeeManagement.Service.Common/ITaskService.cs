@@ -1,4 +1,5 @@
-﻿using EmployeeManagement.Model;
+﻿using EmployeeManagement.Common;
+using EmployeeManagement.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace EmployeeManagement.Service.Common
 {
     public interface ITaskService
     {
-        Task<List<TaskModelEntity>> GetAllAsync();
+        Task<List<TaskModelEntity>> GetAllAsync(Paging paging, FilterTask filter, Sorting sort);
         Task<TaskModelEntity> GetByIdAsync(int id);
         Task PostAsync(TaskModelEntity task);
         Task EditAsnyc(int id, TaskModelEntity task);

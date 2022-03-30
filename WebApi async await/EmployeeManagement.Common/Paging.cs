@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace EmployeeManagement.Common
 {
-    public class Paging
+    public class Paging : IPaging
     {
         public int PageNumber { get; set; } = 1;
         public int RecordsPerPAge { get; set; } = 5;
 
-        
+
     }
 
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeManagement.Common
 {
-    public class Sorting
+    public class Sorting : ISorting
     {
         public string SortByProp { get; set; } = "Id";
         public string SortOrder { get; set; } = "ASC";

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeManagement.Common
 {
-    public class FilterEmployee
+    public class FilterEmployee : IFilterEmployee
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }

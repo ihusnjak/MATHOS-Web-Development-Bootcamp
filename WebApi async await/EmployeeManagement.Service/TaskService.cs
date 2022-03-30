@@ -1,4 +1,5 @@
-﻿using EmployeeManagement.Model;
+﻿using EmployeeManagement.Common;
+using EmployeeManagement.Model;
 using EmployeeManagement.Repository;
 using EmployeeManagement.Repository.Common;
 using EmployeeManagement.Service.Common;
@@ -17,10 +18,10 @@ namespace EmployeeManagement.Service
         {
             TaskRepository = taskRepository;
         }
-        public async Task<List<TaskModelEntity>> GetAllAsync()
+        public async Task<List<TaskModelEntity>> GetAllAsync(Paging paging, FilterTask filter, Sorting sort)
         {
             //var taskRepository = new TaskRepository();
-            List<TaskModelEntity> tasks = await TaskRepository.GetAllTasksAsync();
+            List<TaskModelEntity> tasks = await TaskRepository.GetAllTasksAsync(paging, filter, sort);
             return tasks;
 
         }

@@ -79,6 +79,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FilterEmployee.cs" />
+    <Compile Include="FilterTask.cs" />
+    <Compile Include="IFilterEmployee.cs" />
+    <Compile Include="IFilterTask.cs" />
+    <Compile Include="IPaging.cs" />
+    <Compile Include="ISorting.cs" />
     <Compile Include="Paging.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sorting.cs" />

@@ -4,6 +4,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using EmployeeManagement.Common;
 using EmployeeManagement.Model;
 using EmployeeManagement.Repository.Common;
 
@@ -13,12 +14,41 @@ namespace EmployeeManagement.Repository
     public class TaskRepository : ITaskRepository
     {
         static string connectionString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=employeeTaskManagementDB;Integrated Security=True";
-        public async Task<List<TaskModelEntity>> GetAllTasksAsync()
+        public async Task<List<TaskModelEntity>> GetAllTasksAsync(Paging paging, FilterTask filter, Sorting sort)
         {
             List<TaskModelEntity> tasks = new List<TaskModelEntity>();
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                SqlCommand cmd = new SqlCommand("SELECT * FROM Task;", connection);
+                StringBuilder commandString = new StringBuilder();
+                commandString.Append("SELECT * FROM Task ");
+
+                if (filter != null || filter.Complexity != 0)
+                {
+                    commandString.Append("WHERE 1=1 ");
+                    if (!string.IsNullOrWhiteSpace(filter.Status))
+                    {
+                        commandString.Append("AND Status LIKE '" + filter.Status + "%' ");
+                    }
+                    if (!string.IsNullOrWhiteSpace(filter.Type))
+                    {
+                        commandString.Append("AND Type LIKE '" + filter.Type + "%' ");
+                    }
+                    if (filter.Complexity > 0 & filter.Complexity < 10)
+                    {
+                        commandString.Append("AND Age = " + filter.Complexity + " ");
+                    }
+                }
+                if (sort != null)
+                {
+                    commandString.Append(" ORDER BY " + sort.SortByProp + " " + sort.SortOrder + " ");
+                }
+                if (paging != null)
+                {
+                    commandString.Append("OFFSET (" + paging.PageNumber + "-1) * " + paging.RecordsPerPAge + " ROWS ");
+                    commandString.Append("FETCH NEXT " + paging.RecordsPerPAge + " ROWS ONLY");
+                }
+
+                SqlCommand cmd = new SqlCommand(commandString.ToString(), connection);
                 await connection.OpenAsync();
                 SqlDataReader reader = await cmd.ExecuteReaderAsync();
                 if (reader.HasRows)
