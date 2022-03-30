@@ -49,3 +49,6 @@ C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Reposit
 C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Repository\obj\Debug\EmployeeManagement.Repository.csproj.CopyComplete
 C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Repository\obj\Debug\EmployeeManagement.Repository.dll
 C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Repository\obj\Debug\EmployeeManagement.Repository.pdb
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Repository\bin\Debug\EmployeeManagement.Common.dll
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Repository\bin\Debug\EmployeeManagement.Common.pdb
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Repository\bin\Debug\EmployeeManagement.Common.dll.config

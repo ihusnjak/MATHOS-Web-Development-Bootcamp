@@ -1,4 +1,5 @@
-﻿using EmployeeManagement.Model;
+﻿using EmployeeManagement.Common;
+using EmployeeManagement.Model;
 using EmployeeManagement.Repository;
 using EmployeeManagement.Repository.Common;
 using EmployeeManagement.Service.Common;
@@ -18,10 +19,10 @@ namespace EmployeeManagement.Service
         {
             this.EmployeeRepository = employeeRepository;
         }
-        public async Task <List<Employee>> GetAllAsync()
+        public async Task <List<Employee>> GetAllAsync(Paging paging)
         {
             //var employeeRepository = new EmployeeRepository();
-            List<Employee> employees = await EmployeeRepository.GetAllEmployeesAsync();
+            List<Employee> employees = await EmployeeRepository.GetAllEmployeesAsync(paging);
             return employees;
 
         }

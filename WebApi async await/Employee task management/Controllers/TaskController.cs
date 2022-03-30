@@ -17,7 +17,7 @@ namespace Employee_task_management.Controllers
         protected ITaskService TaskService { get;private set; }
         public TaskController(ITaskService taskService)
         {
-            TaskService = taskService;
+            this.TaskService = taskService;
         }
 
         public async Task<HttpResponseMessage> GetAsync()

@@ -1,4 +1,5 @@
-﻿using EmployeeManagement.Model;
+﻿using EmployeeManagement.Common;
+using EmployeeManagement.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace EmployeeManagement.Repository.Common
 {
     public interface IEmployeeRepository
     {
-        Task<List<Employee>> GetAllEmployeesAsync();
+        Task<List<Employee>> GetAllEmployeesAsync(Paging paging);
         Task<Employee> GetEmployeeByIdAsync(int id);
         Task PostEmployeeAsync(Employee employeeToPost);
         Task EditEmployeeAsync(int id, Employee employeeToEdit);

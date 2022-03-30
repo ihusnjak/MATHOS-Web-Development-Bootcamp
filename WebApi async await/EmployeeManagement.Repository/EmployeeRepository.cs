@@ -1,4 +1,5 @@
-﻿using EmployeeManagement.Model;
+﻿using EmployeeManagement.Common;
+using EmployeeManagement.Model;
 using EmployeeManagement.Repository.Common;
 using System;
 using System.Collections.Generic;
@@ -13,12 +14,23 @@ namespace EmployeeManagement.Repository
     {
         static string connectionString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=employeeTaskManagementDB;Integrated Security=True";
 
-        public async Task<List<Employee>> GetAllEmployeesAsync()
+        public async Task<List<Employee>> GetAllEmployeesAsync(Paging paging)
         {
             List<Employee> employees = new List<Employee>();
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                SqlCommand cmd = new SqlCommand("SELECT * FROM Employee;", connection);
+                StringBuilder commandString = new StringBuilder();
+                commandString.Append("SELECT * FROM Employee ");
+
+
+                if (paging != null)
+                {
+                    commandString.Append(" ORDER BY Age OFFSET ");
+                    commandString.Append("(" + paging.PageNumber + "-1) * " + paging.RecordsPerPAge + " ROWS ");
+                    commandString.Append("FETCH NEXT " + paging.RecordsPerPAge + " ROWS ONLY");
+                }
+
+                SqlCommand cmd = new SqlCommand(commandString.ToString(), connection);
                 await connection.OpenAsync();
                 SqlDataReader reader = await cmd.ExecuteReaderAsync();
                 if (reader.HasRows)

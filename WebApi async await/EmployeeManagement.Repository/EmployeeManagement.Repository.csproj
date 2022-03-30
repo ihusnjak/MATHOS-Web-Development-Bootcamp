@@ -83,6 +83,10 @@
     <Compile Include="TaskRepository.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\EmployeeManagement.Common\EmployeeManagement.Common.csproj">
+      <Project>{A25FD189-C6BF-498F-BB15-8804BB7C3ABE}</Project>
+      <Name>EmployeeManagement.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\EmployeeManagement.Model\EmployeeManagement.Model.csproj">
       <Project>{C99B537C-AA06-4A53-9955-32DE3003B035}</Project>
       <Name>EmployeeManagement.Model</Name>

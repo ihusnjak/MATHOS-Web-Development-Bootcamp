@@ -213,3 +213,6 @@ C:\MATHOS-Web-Development-Bootcamp\WebApi async await\Employee task management\o
 C:\MATHOS-Web-Development-Bootcamp\WebApi async await\Employee task management\obj\Debug\EmployeeManagement.WebApi.csproj.CopyComplete
 C:\MATHOS-Web-Development-Bootcamp\WebApi async await\Employee task management\obj\Debug\Employee task management.dll
 C:\MATHOS-Web-Development-Bootcamp\WebApi async await\Employee task management\obj\Debug\Employee task management.pdb
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\Employee task management\bin\EmployeeManagement.Common.dll
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\Employee task management\bin\EmployeeManagement.Common.pdb
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\Employee task management\bin\EmployeeManagement.Common.dll.config
