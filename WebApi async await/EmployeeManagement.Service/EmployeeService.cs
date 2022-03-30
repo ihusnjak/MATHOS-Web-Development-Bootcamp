@@ -19,10 +19,10 @@ namespace EmployeeManagement.Service
         {
             this.EmployeeRepository = employeeRepository;
         }
-        public async Task <List<Employee>> GetAllAsync(Paging paging)
+        public async Task <List<Employee>> GetAllAsync(Paging paging, FilterEmployee filter, Sorting sort)
         {
             //var employeeRepository = new EmployeeRepository();
-            List<Employee> employees = await EmployeeRepository.GetAllEmployeesAsync(paging);
+            List<Employee> employees = await EmployeeRepository.GetAllEmployeesAsync(paging, filter, sort);
             return employees;
 
         }

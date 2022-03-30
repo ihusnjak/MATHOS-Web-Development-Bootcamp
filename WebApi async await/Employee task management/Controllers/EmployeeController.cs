@@ -21,10 +21,10 @@ namespace Employee_task_management.Controllers
             this.EmployeeService = employeeService;
         }
 
-        public async Task <HttpResponseMessage> GetAsync([FromUri] Paging paging)
+        public async Task <HttpResponseMessage> GetAsync([FromUri] Paging paging, [FromUri] FilterEmployee filter, [FromUri] Sorting sort)
         {
             //var employeeService = new EmployeeService();
-            List<Employee> employees = await EmployeeService.GetAllAsync(paging);
+            List<Employee> employees = await EmployeeService.GetAllAsync(paging, filter, sort);
             List<EmployeeREST> employeesREST = new List<EmployeeREST>();
             foreach (Employee employee in employees)
             {

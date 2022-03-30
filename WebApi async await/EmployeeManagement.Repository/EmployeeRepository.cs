@@ -14,7 +14,7 @@ namespace EmployeeManagement.Repository
     {
         static string connectionString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=employeeTaskManagementDB;Integrated Security=True";
 
-        public async Task<List<Employee>> GetAllEmployeesAsync(Paging paging)
+        public async Task<List<Employee>> GetAllEmployeesAsync(Paging paging, FilterEmployee filter, Sorting sort)
         {
             List<Employee> employees = new List<Employee>();
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -22,11 +22,29 @@ namespace EmployeeManagement.Repository
                 StringBuilder commandString = new StringBuilder();
                 commandString.Append("SELECT * FROM Employee ");
 
-
+                if (filter != null && filter.Age != 0)
+                {
+                    commandString.Append("WHERE 1=1 ");
+                    if (!string.IsNullOrWhiteSpace(filter.FirstName))
+                    {
+                        commandString.Append("AND FirstName LIKE '" + filter.FirstName + "%' ");
+                    }
+                    if (!string.IsNullOrWhiteSpace(filter.LastName))
+                    {
+                        commandString.Append("AND LastName LIKE '" + filter.LastName + "%' ");
+                    }
+                    if (filter.Age > 0 & filter.Age < 100)
+                    {
+                        commandString.Append("AND Age = " + filter.Age + " ");
+                    }
+                }
+                if (sort != null)
+                {
+                    commandString.Append(" ORDER BY " + sort.SortByProp + " " + sort.SortOrder + " ");
+                }
                 if (paging != null)
                 {
-                    commandString.Append(" ORDER BY Age OFFSET ");
-                    commandString.Append("(" + paging.PageNumber + "-1) * " + paging.RecordsPerPAge + " ROWS ");
+                    commandString.Append("OFFSET (" + paging.PageNumber + "-1) * " + paging.RecordsPerPAge + " ROWS ");
                     commandString.Append("FETCH NEXT " + paging.RecordsPerPAge + " ROWS ONLY");
                 }
 

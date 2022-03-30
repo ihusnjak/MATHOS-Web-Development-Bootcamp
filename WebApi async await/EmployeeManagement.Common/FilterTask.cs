@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace EmployeeManagement.Common
 {
-    public class Sorting
+    public class FilterTask
     {
-        public string SortByProp { get; set; } = "Id";
-        public string SortOrder { get; set; } = "ASC";
+        public string Status { get; set; }
+        public string Type { get; set; }
+        public int Complexity { get; set; }
     }
 }

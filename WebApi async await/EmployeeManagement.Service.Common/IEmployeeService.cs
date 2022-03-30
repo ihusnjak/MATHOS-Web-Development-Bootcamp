@@ -10,7 +10,7 @@ namespace EmployeeManagement.Service.Common
 {
     public interface IEmployeeService
     {
-        Task<List<Employee>> GetAllAsync(Paging paging);
+        Task<List<Employee>> GetAllAsync(Paging paging, FilterEmployee filter, Sorting sort);
         Task<Employee> GetByIdAsync(int id);
         Task PostAsync(Employee employee);
         Task EditAsync(int id, Employee employeeToEdit);
