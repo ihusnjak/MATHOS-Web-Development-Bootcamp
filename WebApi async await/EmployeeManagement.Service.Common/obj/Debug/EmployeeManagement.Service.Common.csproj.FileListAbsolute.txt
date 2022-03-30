@@ -7,3 +7,40 @@ C:\Users\husnj\OneDrive\Radna površina\Consoleapp\Employee task management\Empl
 C:\Users\husnj\OneDrive\Radna površina\Consoleapp\Employee task management\EmployeeManagement.Service.Common\obj\Debug\EmployeeManagement.Service.Common.csproj.CopyComplete
 C:\Users\husnj\OneDrive\Radna površina\Consoleapp\Employee task management\EmployeeManagement.Service.Common\obj\Debug\EmployeeManagement.Service.Common.dll
 C:\Users\husnj\OneDrive\Radna površina\Consoleapp\Employee task management\EmployeeManagement.Service.Common\obj\Debug\EmployeeManagement.Service.Common.pdb
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\EmployeeManagement.Service.Common.dll.config
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\EmployeeManagement.Service.Common.dll
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\EmployeeManagement.Service.Common.pdb
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\Autofac.dll
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\Autofac.Integration.WebApi.dll
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\EmployeeManagement.Model.dll
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\Newtonsoft.Json.dll
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\System.Buffers.dll
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\System.Memory.dll
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\System.Net.Http.Formatting.dll
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\System.Numerics.Vectors.dll
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\System.Web.Http.dll
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\EmployeeManagement.Model.pdb
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\EmployeeManagement.Model.dll.config
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\Autofac.pdb
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\Autofac.xml
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\Autofac.Integration.WebApi.pdb
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\Autofac.Integration.WebApi.xml
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\Newtonsoft.Json.xml
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\System.Buffers.xml
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\System.Memory.xml
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\System.Net.Http.Formatting.xml
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\System.Numerics.Vectors.xml
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\bin\Debug\System.Web.Http.xml
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\obj\Debug\EmployeeManagement.Service.Common.csproj.AssemblyReference.cache
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\obj\Debug\EmployeeManagement.Service.Common.csproj.CoreCompileInputs.cache
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\obj\Debug\EmployeeManagement.Service.Common.csproj.CopyComplete
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\obj\Debug\EmployeeManagement.Service.Common.dll
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Service.Common\obj\Debug\EmployeeManagement.Service.Common.pdb

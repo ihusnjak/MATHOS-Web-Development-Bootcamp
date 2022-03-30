@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Employee_task_management.App_Start;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -14,10 +15,13 @@ namespace Employee_task_management
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
+            AutofacContainerConfig.ConfigureAutofac();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
     }
+
+    
 }

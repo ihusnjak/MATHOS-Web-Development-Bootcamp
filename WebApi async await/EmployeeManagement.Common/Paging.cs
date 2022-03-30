@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace EmployeeManagement.Common
 {
-    public class Class1
+    public class Paging
     {
+        public int PageNumber { get; set; }
+        public int RowsPerPAge { get; set; }
     }
 }

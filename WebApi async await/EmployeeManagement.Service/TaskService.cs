@@ -1,5 +1,6 @@
 ﻿using EmployeeManagement.Model;
 using EmployeeManagement.Repository;
+using EmployeeManagement.Repository.Common;
 using EmployeeManagement.Service.Common;
 using System;
 using System.Collections.Generic;
@@ -11,37 +12,42 @@ namespace EmployeeManagement.Service
 {
     public class TaskService : ITaskService
     {
+        protected ITaskRepository TaskRepository { get;private set; }
+        public TaskService(ITaskRepository taskRepository)
+        {
+            TaskRepository = taskRepository;
+        }
         public async Task<List<TaskModelEntity>> GetAllAsync()
         {
-            var taskRepository = new TaskRepository();
-            List<TaskModelEntity> tasks = await taskRepository.GetAllTasksAsync();
+            //var taskRepository = new TaskRepository();
+            List<TaskModelEntity> tasks = await TaskRepository.GetAllTasksAsync();
             return tasks;
 
         }
 
         public async Task<TaskModelEntity> GetByIdAsync(int id)
         {
-            var taskRepository = new TaskRepository();
-            TaskModelEntity task = await taskRepository.GetTaskByIdAsync(id);
+            //var taskRepository = new TaskRepository();
+            TaskModelEntity task = await TaskRepository.GetTaskByIdAsync(id);
             return task;
         }
 
         public async Task PostAsync(TaskModelEntity task)
         {
-            var taskRepository = new TaskRepository();
-            await taskRepository.PostTaskAsync(task);
+            //var taskRepository = new TaskRepository();
+            await TaskRepository.PostTaskAsync(task);
         }
 
         public async Task EditAsnyc(int id, TaskModelEntity task)
         {
-            var taskRepository = new TaskRepository();
-            await taskRepository.EditTaskAsync(id, task);
+            //var taskRepository = new TaskRepository();
+            await TaskRepository.EditTaskAsync(id, task);
         }
 
         public async Task DeleteAsync(int id)
         {
-            var taskRepository = new TaskRepository();
-            await taskRepository.DeleteTaskAsync(id);
+            //var taskRepository = new TaskRepository();
+            await TaskRepository.DeleteTaskAsync(id);
         }
     }
 }
