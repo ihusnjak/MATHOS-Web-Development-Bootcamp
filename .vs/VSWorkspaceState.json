@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\WebApi async await",
-    "\\WebApi async await\\Employee task management\\Controllers"
+    "\\WebApi async await\\EmployeeManagement.Repository"
   ],
-  "SelectedNode": "\\WebApi async await\\EmployeeManagement.sln",
+  "SelectedNode": "\\WebApi async await\\EmployeeManagement.Repository\\EmployeeRepository.cs",
   "PreviewInSolutionExplorer": false
 }
