@@ -1,0 +1,669 @@
+﻿++Solution 'EmployeeManagement' ‎(9 of 9 projects)
+i:{00000000-0000-0000-0000-000000000000}:EmployeeManagement.sln
+++EmployeeManagement.Service
+i:{00000000-0000-0000-0000-000000000000}:EmployeeManagement.Service
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++Properties
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.service\properties\
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.service.common\properties\
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.repository\properties\
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.repository.common\properties\
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.model\properties\
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.model.common\properties\
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.common\properties\
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.dal\properties\
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\properties\
+++References
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++app.config
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.service\app.config
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.service.common\app.config
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.repository\app.config
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.repository.common\app.config
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.model\app.config
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.model.common\app.config
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.common\app.config
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.dal\app.config
+++EmployeeService.cs
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.service\employeeservice.cs
+++packages.config
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.service\packages.config
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.service.common\packages.config
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.repository\packages.config
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.repository.common\packages.config
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.model\packages.config
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.model.common\packages.config
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.common\packages.config
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.dal\packages.config
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\packages.config
+++TaskService.cs
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.service\taskservice.cs
+++AssemblyInfo.cs
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.service\properties\assemblyinfo.cs
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.service.common\properties\assemblyinfo.cs
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.repository\properties\assemblyinfo.cs
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.repository.common\properties\assemblyinfo.cs
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.model\properties\assemblyinfo.cs
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.model.common\properties\assemblyinfo.cs
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.common\properties\assemblyinfo.cs
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.dal\properties\assemblyinfo.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\properties\assemblyinfo.cs
+++Autofac
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++Autofac.Integration.WebApi
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++AutoMapper
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++EmployeeManagement.Common
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:
+i:{00000000-0000-0000-0000-000000000000}:EmployeeManagement.Common
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++EmployeeManagement.Model
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:
+i:{00000000-0000-0000-0000-000000000000}:EmployeeManagement.Model
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++EmployeeManagement.Repository
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{00000000-0000-0000-0000-000000000000}:EmployeeManagement.Repository
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++EmployeeManagement.Repository.Common
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{00000000-0000-0000-0000-000000000000}:EmployeeManagement.Repository.Common
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++EmployeeManagement.Service.Common
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{00000000-0000-0000-0000-000000000000}:EmployeeManagement.Service.Common
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++Microsoft.Bcl.AsyncInterfaces
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++Microsoft.CSharp
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++Newtonsoft.Json
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Buffers
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Core
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Data
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Data.DataSetExtensions
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Diagnostics.DiagnosticSource
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Memory
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Net.Http
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Net.Http.Formatting
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Numerics
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Numerics.Vectors
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Runtime.CompilerServices.Unsafe
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Threading.Tasks.Extensions
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Web.Http
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Xml
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Xml.Linq
+i:{d6d6e5f5-5dec-423e-bf9c-5254ac2b7cc8}:
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++IEmployeeService.cs
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.service.common\iemployeeservice.cs
+++ITaskService.cs
+i:{2c0353b0-559c-4803-a89c-bfae119c3dab}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.service.common\itaskservice.cs
+++EmployeeRepository.cs
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.repository\employeerepository.cs
+++TaskRepository.cs
+i:{6ac4fdee-c6ff-495a-afb9-312dd80c40c2}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.repository\taskrepository.cs
+++IEmployeeRepository.cs
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.repository.common\iemployeerepository.cs
+++ITaskRepository.cs
+i:{5f8fff58-f4cc-4836-b610-56d1cf9fccee}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.repository.common\itaskrepository.cs
+++Employee.cs
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.model\employee.cs
+++TaskModelEntity.cs
+i:{c99b537c-aa06-4a53-9955-32de3003b035}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.model\taskmodelentity.cs
+++EmployeeManagement.Model.Common
+i:{00000000-0000-0000-0000-000000000000}:EmployeeManagement.Model.Common
+++IEmployee.cs
+i:{cdf3f0d3-ef69-4601-a949-02c565c4497c}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.model.common\iemployee.cs
+++FilterEmployee.cs
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.common\filteremployee.cs
+++FilterTask.cs
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.common\filtertask.cs
+++IFilterEmployee.cs
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.common\ifilteremployee.cs
+++IFilterTask.cs
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.common\ifiltertask.cs
+++IPaging.cs
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.common\ipaging.cs
+++ISorting.cs
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.common\isorting.cs
+++Paging.cs
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.common\paging.cs
+++Sorting.cs
+i:{a25fd189-c6bf-498f-bb15-8804bb7c3abe}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.common\sorting.cs
+++EmployeeManagement.DAL
+i:{00000000-0000-0000-0000-000000000000}:EmployeeManagement.DAL
+++Class1.cs
+i:{1a85bb82-5cb1-4b00-b946-9ec761fba1e7}:c:\mathos-web-development-bootcamp\webapi async await\employeemanagement.dal\class1.cs
+++EmployeeManagement.WebApi
+i:{00000000-0000-0000-0000-000000000000}:EmployeeManagement.WebApi
+++App_Data
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\app_data\
+++App_Start
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\app_start\
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\app_start\
+++AutofacContainerConfig.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\app_start\autofaccontainerconfig.cs
+++BundleConfig.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\app_start\bundleconfig.cs
+++FilterConfig.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\app_start\filterconfig.cs
+++RouteConfig.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\app_start\routeconfig.cs
+++WebApiConfig.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\app_start\webapiconfig.cs
+++Areas
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\
+++Content
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\
+++bootstrap-grid.css
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap-grid.css
+++bootstrap-grid.css.map
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap-grid.min.css
+++bootstrap-grid.min.css.map
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap-grid.rtl.css
+++bootstrap-grid.rtl.css.map
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap-grid.rtl.min.css
+++bootstrap-grid.rtl.min.css.map
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.css
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap-reboot.css
+++bootstrap-reboot.css.map
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap-reboot.min.css
+++bootstrap-reboot.min.css.map
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap-reboot.rtl.css
+++bootstrap-reboot.rtl.css.map
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap-reboot.rtl.min.css
+++bootstrap-reboot.rtl.min.css.map
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.css
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap-utilities.css
+++bootstrap-utilities.css.map
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap-utilities.min.css
+++bootstrap-utilities.min.css.map
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap-utilities.rtl.css
+++bootstrap-utilities.rtl.css.map
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap-utilities.rtl.min.css
+++bootstrap-utilities.rtl.min.css.map
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap-utilities.rtl.min.css.map
+++bootstrap.css
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap.css
+++bootstrap.css.map
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap.css.map
+++bootstrap.min.css
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap.min.css
+++bootstrap.min.css.map
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap.min.css.map
+++bootstrap.rtl.css
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap.rtl.css
+++bootstrap.rtl.css.map
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap.rtl.min.css
+++bootstrap.rtl.min.css.map
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\bootstrap.rtl.min.css.map
+++Site.css
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\content\site.css
+++Controllers
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\controllers\
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\controllers\
+++EmployeeController.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\controllers\employeecontroller.cs
+++HomeController.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\controllers\homecontroller.cs
+++TaskController.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\controllers\taskcontroller.cs
+++Models
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\models\
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\models\
+++ControllerMappingProfile.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\models\controllermappingprofile.cs
+++EmployeeREST.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\models\employeerest.cs
+++TaskREST.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\models\taskrest.cs
+++Scripts
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\scripts\
+++bootstrap.bundle.js
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\scripts\bootstrap.bundle.js
+++bootstrap.bundle.js.map
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\scripts\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\scripts\bootstrap.bundle.min.js
+++bootstrap.bundle.min.js.map
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\scripts\bootstrap.bundle.min.js.map
+++bootstrap.esm.js
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\scripts\bootstrap.esm.js
+++bootstrap.esm.js.map
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\scripts\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\scripts\bootstrap.esm.min.js
+++bootstrap.esm.min.js.map
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\scripts\bootstrap.esm.min.js.map
+++bootstrap.js
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\scripts\bootstrap.js
+++bootstrap.js.map
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\scripts\bootstrap.js.map
+++bootstrap.min.js
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\scripts\bootstrap.min.js
+++bootstrap.min.js.map
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\scripts\bootstrap.min.js.map
+++jquery-3.6.0.intellisense.js
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\scripts\jquery-3.6.0.intellisense.js
+++jquery-3.6.0.js
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\scripts\jquery-3.6.0.js
+++jquery-3.6.0.min.js
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\scripts\jquery-3.6.0.min.js
+++jquery-3.6.0.min.map
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\scripts\jquery-3.6.0.min.map
+++jquery-3.6.0.slim.js
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\scripts\jquery-3.6.0.slim.js
+++jquery-3.6.0.slim.min.js
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\scripts\jquery-3.6.0.slim.min.js
+++jquery-3.6.0.slim.min.map
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\scripts\jquery-3.6.0.slim.min.map
+++modernizr-2.8.3.js
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\scripts\modernizr-2.8.3.js
+++Views
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\views\
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\views\
+++Home
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\views\home\
+++Shared
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\views\shared\
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\views\shared\
+++_Layout.cshtml
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\views\shared\_layout.cshtml
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\views\shared\_layout.cshtml
+++Error.cshtml
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\views\shared\error.cshtml
+++_ViewStart.cshtml
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\views\_viewstart.cshtml
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\views\_viewstart.cshtml
+++Web.config
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\views\web.config
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\web.config
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\views\web.config
+++favicon.ico
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\favicon.ico
+++Global.asax
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\global.asax
+++Global.asax.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\global.asax.cs
+++Antlr3.Runtime
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++Microsoft.CodeDom.Providers.DotNetCompilerPlatform
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++Microsoft.Web.Infrastructure
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.ComponentModel.DataAnnotations
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Configuration
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Drawing
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Net.Http.WebRequest
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Runtime.Serialization
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Web
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Web.Abstractions
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Web.ApplicationServices
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Web.Entity
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Web.Helpers
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Web.Http.WebHost
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Web.Mvc
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Web.Optimization
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Web.Razor
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Web.Routing
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Web.WebPages
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Web.WebPages.Deployment
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++System.Web.WebPages.Razor
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++WebGrease
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:
+++HelpPage
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\
+++Index.cshtml
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\views\home\index.cshtml
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\views\help\index.cshtml
+++Web.Debug.config
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\web.debug.config
+++Web.Release.config
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\web.release.config
+++ModelDescriptions
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\modeldescriptions\
+++SampleGeneration
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\samplegeneration\
+++ApiDescriptionExtensions.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\apidescriptionextensions.cs
+++HelpPage.css
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\helppage.css
+++HelpPageAreaRegistration.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\helppagearearegistration.cs
+++HelpPageConfigurationExtensions.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\helppageconfigurationextensions.cs
+++XmlDocumentationProvider.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\xmldocumentationprovider.cs
+++HelpPageConfig.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\app_start\helppageconfig.cs
+++HelpController.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\controllers\helpcontroller.cs
+++CollectionModelDescription.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\modeldescriptions\collectionmodeldescription.cs
+++ComplexTypeModelDescription.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\modeldescriptions\complextypemodeldescription.cs
+++DictionaryModelDescription.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\modeldescriptions\dictionarymodeldescription.cs
+++EnumTypeModelDescription.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\modeldescriptions\enumtypemodeldescription.cs
+++EnumValueDescription.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\modeldescriptions\enumvaluedescription.cs
+++IModelDocumentationProvider.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\modeldescriptions\imodeldocumentationprovider.cs
+++KeyValuePairModelDescription.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\modeldescriptions\keyvaluepairmodeldescription.cs
+++ModelDescription.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\modeldescriptions\modeldescription.cs
+++ModelDescriptionGenerator.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\modeldescriptions\modeldescriptiongenerator.cs
+++ModelNameAttribute.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\modeldescriptions\modelnameattribute.cs
+++ModelNameHelper.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\modeldescriptions\modelnamehelper.cs
+++ParameterAnnotation.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\modeldescriptions\parameterannotation.cs
+++ParameterDescription.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\modeldescriptions\parameterdescription.cs
+++SimpleTypeModelDescription.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\modeldescriptions\simpletypemodeldescription.cs
+++HelpPageApiModel.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\models\helppageapimodel.cs
+++HelpPageSampleGenerator.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\samplegeneration\helppagesamplegenerator.cs
+++HelpPageSampleKey.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\samplegeneration\helppagesamplekey.cs
+++ImageSample.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\samplegeneration\imagesample.cs
+++InvalidSample.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\samplegeneration\invalidsample.cs
+++ObjectGenerator.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\samplegeneration\objectgenerator.cs
+++SampleDirection.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\samplegeneration\sampledirection.cs
+++TextSample.cs
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\samplegeneration\textsample.cs
+++Help
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\views\help\
+++DisplayTemplates
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\views\help\displaytemplates\
+++Api.cshtml
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\views\help\api.cshtml
+++ResourceModel.cshtml
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\views\help\resourcemodel.cshtml
+++ApiGroup.cshtml
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\views\help\displaytemplates\apigroup.cshtml
+++CollectionModelDescription.cshtml
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\views\help\displaytemplates\collectionmodeldescription.cshtml
+++ComplexTypeModelDescription.cshtml
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\views\help\displaytemplates\complextypemodeldescription.cshtml
+++DictionaryModelDescription.cshtml
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\views\help\displaytemplates\dictionarymodeldescription.cshtml
+++EnumTypeModelDescription.cshtml
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\views\help\displaytemplates\enumtypemodeldescription.cshtml
+++HelpPageApiModel.cshtml
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\views\help\displaytemplates\helppageapimodel.cshtml
+++ImageSample.cshtml
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\views\help\displaytemplates\imagesample.cshtml
+++InvalidSample.cshtml
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\views\help\displaytemplates\invalidsample.cshtml
+++KeyValuePairModelDescription.cshtml
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\views\help\displaytemplates\keyvaluepairmodeldescription.cshtml
+++ModelDescriptionLink.cshtml
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\views\help\displaytemplates\modeldescriptionlink.cshtml
+++Parameters.cshtml
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\views\help\displaytemplates\parameters.cshtml
+++Samples.cshtml
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\views\help\displaytemplates\samples.cshtml
+++SimpleTypeModelDescription.cshtml
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\views\help\displaytemplates\simpletypemodeldescription.cshtml
+++TextSample.cshtml
+i:{bb7d99d6-00ec-4003-a16b-7c64fabeb06d}:c:\mathos-web-development-bootcamp\webapi async await\employee task management\areas\helppage\views\help\displaytemplates\textsample.cshtml

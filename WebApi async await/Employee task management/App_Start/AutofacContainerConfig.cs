@@ -1,5 +1,7 @@
 ﻿using Autofac;
 using Autofac.Integration.WebApi;
+using AutoMapper;
+using Employee_task_management.Models;
 using EmployeeManagement.Repository;
 using EmployeeManagement.Repository.Common;
 using EmployeeManagement.Service;
@@ -23,6 +25,12 @@ namespace Employee_task_management.App_Start
             builder.RegisterType<EmployeeRepository>().As<IEmployeeRepository>();
             builder.RegisterType<TaskService>().As<ITaskService>();
             builder.RegisterType<TaskRepository>().As<ITaskRepository>();
+            builder.Register(context => new MapperConfiguration(config =>
+                {
+                    config.AddProfile(new ControllerMappingProfile());
+                }));
+            builder.Register(context => context.Resolve<MapperConfiguration>().CreateMapper()).As<IMapper>().SingleInstance();
+            
             var container = builder.Build();
             var resolver = new AutofacWebApiDependencyResolver(container);
             GlobalConfiguration.Configuration.DependencyResolver = resolver; 

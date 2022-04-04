@@ -2,6 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\WebApi async await",
+    "\\WebApi async await\\Employee task management",
+    "\\WebApi async await\\Employee task management\\Areas",
+    "\\WebApi async await\\Employee task management\\Areas\\HelpPage",
+    "\\WebApi async await\\Employee task management\\Areas\\HelpPage\\Views",
+    "\\WebApi async await\\Employee task management\\Areas\\HelpPage\\Views\\Shared",
+    "\\WebApi async await\\Employee task management\\Controllers",
+    "\\WebApi async await\\Employee task management\\Views",
+    "\\WebApi async await\\Employee task management\\Views\\Shared",
     "\\WebApi async await\\EmployeeManagement.Repository"
   ],
   "SelectedNode": "\\WebApi async await\\EmployeeManagement.Repository\\EmployeeRepository.cs",

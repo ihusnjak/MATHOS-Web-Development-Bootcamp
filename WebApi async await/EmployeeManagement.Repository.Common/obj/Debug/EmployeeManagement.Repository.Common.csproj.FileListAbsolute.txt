@@ -47,3 +47,5 @@ C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Reposit
 C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Repository.Common\bin\Debug\EmployeeManagement.Common.dll
 C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Repository.Common\bin\Debug\EmployeeManagement.Common.pdb
 C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Repository.Common\bin\Debug\EmployeeManagement.Common.dll.config
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Repository.Common\bin\Debug\AutoMapper.dll
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Repository.Common\bin\Debug\AutoMapper.xml

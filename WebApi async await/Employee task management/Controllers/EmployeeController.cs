@@ -1,4 +1,5 @@
-﻿using Employee_task_management.Models;
+﻿using AutoMapper;
+using Employee_task_management.Models;
 using EmployeeManagement.Common;
 using EmployeeManagement.Model;
 using EmployeeManagement.Service;
@@ -16,27 +17,25 @@ namespace Employee_task_management.Controllers
     public class EmployeeController : ApiController
     {
         protected IEmployeeService EmployeeService { get;private set; }
-        public EmployeeController(IEmployeeService employeeService)
+        private readonly IMapper Mapper;
+        public EmployeeController(IEmployeeService employeeService, IMapper mapper)
         {
             this.EmployeeService = employeeService;
+            this.Mapper = mapper;
         }
 
         public async Task <HttpResponseMessage> GetAsync([FromUri] Paging paging, [FromUri] FilterEmployee filter, [FromUri] Sorting sort)
         {
             //var employeeService = new EmployeeService();
             List<Employee> employees = await EmployeeService.GetAllAsync(paging, filter, sort);
-            List<EmployeeREST> employeesREST = new List<EmployeeREST>();
-            foreach (Employee employee in employees)
-            {
-                employeesREST.Add(new EmployeeREST(employee.Id, employee.FirstName, employee.LastName));
-            }
-            if (employeesREST.Count == 0)
+            
+            if (employees.Count == 0)
             {
                 return Request.CreateResponse(HttpStatusCode.BadRequest, "Empty!");
             }
             else
             {
-                return Request.CreateResponse(HttpStatusCode.OK, employeesREST);
+                return Request.CreateResponse(HttpStatusCode.OK, Mapper.Map<List<EmployeeREST>>(employees));
             }
         }
 
@@ -50,7 +49,7 @@ namespace Employee_task_management.Controllers
                 return Request.CreateResponse(HttpStatusCode.BadRequest,$"No such ID, ID = {id}");
             } else
             {
-                return Request.CreateResponse(HttpStatusCode.OK, new EmployeeREST(employee.Id, employee.FirstName, employee.LastName));
+                return Request.CreateResponse(HttpStatusCode.OK, Mapper.Map<EmployeeREST>(employee));
             }
         }
 
@@ -66,11 +65,8 @@ namespace Employee_task_management.Controllers
                 return Request.CreateResponse(HttpStatusCode.BadRequest, "Empty first name or last name");
             } else
             {
-                Employee employee = new Employee();
-                employee.FirstName = employeeToPost.FirstName;
-                employee.LastName = employeeToPost.LastName;
-                await EmployeeService.PostAsync(employee);
-                return Request.CreateResponse(HttpStatusCode.OK, employeeToPost);
+                await EmployeeService.PostAsync(Mapper.Map<Employee>(employeeToPost));
+                return Request.CreateResponse(HttpStatusCode.OK, "New employee inserted");
             }
         }
 
@@ -79,6 +75,7 @@ namespace Employee_task_management.Controllers
         {
             //var employeeService = new EmployeeService();
             var employee = await EmployeeService.GetByIdAsync(id);
+       
             if (employee == null)
             {
                 return Request.CreateResponse(HttpStatusCode.BadRequest, "Empty!");
@@ -92,7 +89,7 @@ namespace Employee_task_management.Controllers
                 employee.FirstName = employeeToEdit.FirstName;
                 employee.LastName = employeeToEdit.LastName;
                 await EmployeeService.EditAsync(id, employee);
-                return Request.CreateResponse(HttpStatusCode.OK, employeeToEdit);
+                return Request.CreateResponse(HttpStatusCode.OK, Mapper.Map<Employee>(employee));
             }
         }
 
@@ -108,7 +105,7 @@ namespace Employee_task_management.Controllers
             else
             {
                 await EmployeeService.DeleteAsync(id);
-                return Request.CreateResponse(HttpStatusCode.OK, new EmployeeREST(employee.Id, employee.FirstName, employee.LastName));
+                return Request.CreateResponse(HttpStatusCode.OK, Mapper.Map<EmployeeREST>(employee));
             }
         }
     }

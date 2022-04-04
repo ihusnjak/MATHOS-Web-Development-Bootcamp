@@ -38,3 +38,5 @@ C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Model\o
 C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Model\obj\Debug\EmployeeManagement.Model.csproj.CopyComplete
 C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Model\obj\Debug\EmployeeManagement.Model.dll
 C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Model\obj\Debug\EmployeeManagement.Model.pdb
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Model\bin\Debug\AutoMapper.dll
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Model\bin\Debug\AutoMapper.xml
