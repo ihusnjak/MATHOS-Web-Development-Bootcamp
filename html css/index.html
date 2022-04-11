@@ -7,13 +7,14 @@
     <meta name="keywords" content="html,css,js,mathos,web,development,bootcamp">
     <title>Personal planner app</title>
     <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="scripts/index.js"></script>
 </head>
 <body>
     <div class="navbar">
         <div class="container">
             <a class="logo" href="#">PERSONAL<span>PLANNER</span></a>
 
-            <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
+            <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation" onclick="openCloseNav();">
 
             <nav>
                 <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
@@ -69,21 +70,21 @@
         <div class="container">
             <ul>
                 <li>
-                    <img src="images/person.jpg" alt="Person">
+                    <img src="images/person.jpg" alt="Person" onclick="modifyQuote();">
 
-                    <blockquote>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"</blockquote>
+                    <blockquote class="mod-with-js">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"</blockquote>
                     <cite>- Jane Doe</cite>
                 </li>
                 <li>
                     <img src="images/person.jpg" alt="Person">
 
-                    <blockquote>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"</blockquote>
+                    <blockquote class="mod-with-js">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"</blockquote>
                     <cite>- Jane Doe</cite>
                 </li>
                 <li>
                     <img src="images/person.jpg" alt="Person">
 
-                    <blockquote>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"</blockquote>
+                    <blockquote class="mod-with-js">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"</blockquote>
                     <cite>- Jane Doe</cite>
                 </li>
             </ul>
@@ -114,19 +115,6 @@
 
         </div>
     </section>  
-    
-    <script>
-        const mobileBtn = document.getElementById('mobile-cta')
-              nav = document.querySelector('nav')
-              mobileBtnExit = document.getElementById('mobile-exit');
-
-        mobileBtn.addEventListener('click', () => {
-            nav.classList.add('menu-btn');
-        })
-        mobileBtnExit.addEventListener('click', () => {
-            nav.classList.remove('menu-btn');
-        })                
-    </script>
-
+        
 </body>
 </html>
