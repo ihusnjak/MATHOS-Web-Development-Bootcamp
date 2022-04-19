@@ -22,7 +22,7 @@ namespace EmployeeManagement.Repository
                 StringBuilder commandString = new StringBuilder();
                 commandString.Append("SELECT * FROM Employee ");
 
-                if (filter != null || filter.Age != 0)
+                if (filter != null)
                 {
                     commandString.Append("WHERE 1=1 ");
                     if (!string.IsNullOrWhiteSpace(filter.FirstName))

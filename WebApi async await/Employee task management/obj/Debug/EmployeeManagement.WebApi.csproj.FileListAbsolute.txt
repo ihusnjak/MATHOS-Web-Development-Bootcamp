@@ -199,3 +199,6 @@ C:\MATHOS-Web-Development-Bootcamp\WebApi async await\Employee task management\b
 C:\MATHOS-Web-Development-Bootcamp\WebApi async await\Employee task management\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
 C:\MATHOS-Web-Development-Bootcamp\WebApi async await\Employee task management\bin\AutoMapper.dll
 C:\MATHOS-Web-Development-Bootcamp\WebApi async await\Employee task management\bin\AutoMapper.xml
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\Employee task management\bin\System.Web.Cors.dll
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\Employee task management\bin\System.Web.Http.Cors.dll
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\Employee task management\bin\System.Web.Http.Cors.xml
