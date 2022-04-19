@@ -21,6 +21,8 @@ namespace Employee_task_management
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
+
+      
     }
 
     

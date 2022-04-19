@@ -24,12 +24,14 @@ namespace Employee_task_management.Controllers
             this.Mapper = mapper;
         }
 
+        [HttpGet, Route("api/employee")]
         public async Task <HttpResponseMessage> GetAsync([FromUri] Paging paging, [FromUri] FilterEmployee filter, [FromUri] Sorting sort)
         {
             //var employeeService = new EmployeeService();
-            List<Employee> employees = await EmployeeService.GetAllAsync(paging, filter, sort);
+            List<Employee> employees;
+            employees = await EmployeeService.GetAllAsync(paging, filter, sort);
             
-            if (employees.Count == 0)
+            if (employees == null)
             {
                 return Request.CreateResponse(HttpStatusCode.BadRequest, "Empty!");
             }
@@ -53,7 +55,7 @@ namespace Employee_task_management.Controllers
             }
         }
 
-        
+        [HttpPost, Route("api/employee")]
         public async Task<HttpResponseMessage> PostAsync([FromBody] EmployeeREST employeeToPost)
         {
             //var employeeService = new EmployeeService();

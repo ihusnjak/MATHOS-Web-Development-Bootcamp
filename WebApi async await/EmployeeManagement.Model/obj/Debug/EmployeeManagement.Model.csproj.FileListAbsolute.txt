@@ -40,3 +40,6 @@ C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Model\o
 C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Model\obj\Debug\EmployeeManagement.Model.pdb
 C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Model\bin\Debug\AutoMapper.dll
 C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Model\bin\Debug\AutoMapper.xml
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Model\bin\Debug\System.Web.Cors.dll
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Model\bin\Debug\System.Web.Http.Cors.dll
+C:\MATHOS-Web-Development-Bootcamp\WebApi async await\EmployeeManagement.Model\bin\Debug\System.Web.Http.Cors.xml
