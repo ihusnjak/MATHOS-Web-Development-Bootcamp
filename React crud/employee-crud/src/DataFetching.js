@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { Table, Button } from "reactstrap";
+import { Link } from "react-router-dom";
 
 export default function DataFetching() {
   const [employees, setEmployees] = useState([]);
@@ -41,9 +42,11 @@ export default function DataFetching() {
               <td>{employee.FirstName}</td>
               <td>{employee.LastName}</td>
               <td>
+              <Link to={`/edit/${employee.Id}`}>
                 <Button color="success" size="small" className="mx-2">
                   Edit
                 </Button>
+                </Link>
                 <Button
                   value={employee.Id}
                   onClick={() => handleDelete(employee.Id)}
